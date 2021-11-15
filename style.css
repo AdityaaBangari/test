@@ -2,7 +2,7 @@ body {
   /* text-align: center; */
   font: 15px/1.5 Arial, Helvetica, sans-serif;
   padding: 0px;
-  background-color: #f4f4f4;
+  background-color: white;
   /* width: 100%; */
   /* margin-bottom: 500px; */
 }
@@ -69,7 +69,7 @@ body {
   width: 95%;
   margin-top: 15px;
 }
-.nav-bottom button {
+.left-button {
   background-color: rgb(31, 43, 52);
   border: 2px solid rgb(31, 43, 52);
   color: white;
@@ -117,17 +117,17 @@ body {
   justify-content: center;
   /* height: 600px; */
   background-color: rgb(31, 43, 52);
-  margin-top: 130px;
+  margin-top: 180px;
   color: white;
 }
 .showcase .user {
   display: flex;
-  flex-direction: column;
-  margin-bottom: 40px;
+  /*flex-direction: column;*/
+  margin-bottom: 235px;
   justify-content: start;
   align-items: center;
 }
-.showcase .user img {
+#userimg {
   height: 50px;
   width: 50px;
   border-radius: 100%;
@@ -142,7 +142,7 @@ body {
   /* border: 1px solid; */
   margin-right: 20px;
   flex-direction: column;
-  margin-top: 100px;
+  /*margin-top: 100px;*/
 }
 .showcase .case {
   display: flex;
@@ -157,9 +157,54 @@ body {
   text-align: center;
 }
 .left button {
+  background-color: white;
   height: 50px;
   width: 120px;
   border-radius: 50px;
   border: 2px solid;
   margin-right: 400px;
+  margin-bottom: 60px;
+  margin-top: 10px;
 }
+.rightButton{
+  border-color: transparent;
+  background-color: whitesmoke;
+  color: black;
+  font-weight: bold;
+  height: 50px;
+  width: 120px;
+  border-radius: 50px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.head{
+  text-align: left;
+}
+.user-text{
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.text h1{
+font-size: 5.8em;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.text p{
+  font-size: 15.5px;
+  text-align: left;
+  line-height: 2;
+}
+.text{
+  padding-left: 80px;
+}
+.bigimg{
+  position: absolute;
+  height: 600px;
+  width: 400px;
+  top: 896px;
+  left: 100px;
+
+}
+
